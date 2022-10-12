@@ -1,0 +1,35 @@
+site:__target__ inurl:database
+site:__target__ inurl:directory
+site:__target__ inurl:index
+intitle:"index of" inurl:ftp inurl:__target__
+intitle:"index of" inurl:__target__
+intilte:"index of" inurl:http inurl:__target__
+filetype:xls inurl:__target__
+intitle:"Index of" wp-admin inurl:__target__
+intitle:"Apache2 Ubuntu" inurl:__target__
+intext:username filetype:log inurl:__target__
+intext:__target__ filetype:log
+intext:username filetype:log intext:__target__
+inurl:/proc/self/cwd intext:__target__
+inurl:__target__ filetype:env
+"index of" "database.sql.zip" inurl:__target__
+"database.sql" inurl:__target__
+"database.zip" inurl:__target__
+"db.zip" inurl:__target__
+"db.sql.zip" inurl:__target__
+inurl:__target__ intext:"Atlassian Jira"
+inurl:app/kibana site:__target__
+inurl:_cpanel/forgotpwd site:__target__
+site:__target__ filetype: csv inurl:emails.csv
+inurl:__target__ filetype:mp3
+inurl:__target__ filetype:mp4
+inurl:__target__ filetype:pdf
+intitle:index of id_rsa -id_rsa.pub inurl:__target__
+"@__target__"
+inurl:__target__ intext:"username"
+inurl:__target__ intext:"password"
+site:__target__ -site:www.__target__
+inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:xls
+inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:csv
+inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:doc
+inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:txt

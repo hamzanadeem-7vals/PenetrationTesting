@@ -33,3 +33,8 @@ inurl:__target__ not for distribution | confidential | "employee only" | proprie
 inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:csv
 inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:doc
 inurl:__target__ not for distribution | confidential | "employee only" | proprietary | top secret | classified | trade secret | internal | private filetype:txt
+inurl:__target__ intitle:"index of"
+inurl:__target__ intitle:"index of /" "*key.pem"
+inurl:__target__ ext:log
+inurl:__target__ intitle:"index of" ext:sql|xls|xml|json|csv
+inurl:__target__ "MYSQL_ROOT_PASSWORD:" ext:env OR ext:yml -git

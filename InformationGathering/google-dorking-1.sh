@@ -34,7 +34,7 @@ function open_in_browser()
     while IFS= read -r -u 3 line;
     do 
         firefox --new-tab "$line" > /dev/null &
-        echo "i:$i";
+        # echo "i:$i";
         if (( "$i" % 10 == 0 )); then 
             i=1;
             read -p "Do you want to continue (y|n):" user_choice

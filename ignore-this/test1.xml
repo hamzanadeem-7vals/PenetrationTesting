@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<userdata>
+    <name>hamza</name>
+    <rank>general</rank>
+    <type>
+        <field>os</field>
+        <field>web</field>
+    </type>
+    <dob>1996</dob>
+</userdata>
+
+<!-- DTD -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE sensitive SYSTEM "file:///etc/passwd">
+
+<!-- ENTITIES -->
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE email [
+    <!ENTITY company "7vals" >
+    <!ENTITY location "DHA Phase 5" >
+]>
